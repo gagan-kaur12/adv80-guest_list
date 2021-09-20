@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>project80-GuestList</title>
+        <link rel ="stylesheet" href ="style.css">
+        <script src ="main.js"></script>
+    </head>
+    <body>
+        <h2>Guest List</h2>
+        <br>
+        <div>
+         <input type ="text" placeholder="Enter the name of the guest" id ="name1">
+         <button id ="submit_button" onclick="submit()">Submit</button>
+        </div>
+        <hr>
+        <div id ="display_list"></div>
+        <hr>
+        <div>
+
+            <h2>Guest List</h2>
+            <br>
+            <button id ="show_button" onclick  = "show()">Show</button>
+        </div>
+        <div id ="show_List"></div>
+        <hr>
+        <button id ="sorted_list" onclick = "sort()">Sorted List</button>
+        <div id ="sorted_List"></div>
+        <hr>
+        <div>
+            <input type ="text" placeholder="search your name" id = "s1">
+            <button id ="search_button" onclick = "search()">Search</button>
+            <div id ="search"></div>
+        </div>
+    </body>
+</html>
